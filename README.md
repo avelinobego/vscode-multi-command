@@ -208,6 +208,23 @@ For example:
     }
 ],
 ```
+#### Multiple arguments to commands
+Now, you can pass an array of arguments to commands.
+For Example:
+
+```json
+{
+            "command": "multiCommand.helloWorld",
+            "sequence": [
+                {"command": "editor.action.insertLineAfter"},
+                {
+                    "command": "type",
+                    "args": [{"text": "Hello\n"},{"text": "world!"},]
+                },
+                {"command": "editor.action.insertLineAfter"},
+}
+```
+
 
 Current supported variables:
 
