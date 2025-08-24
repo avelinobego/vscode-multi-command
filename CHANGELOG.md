@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.6.1
+### Added
+- Multiple arguments for the same command
+
 ## 1.6.0
 ### Added
 - [Variable substitution like `${userHome}` or `${config:editor.fontSize}` in arguments.](/README.md#pass-arguments-to-commands)
