@@ -2,8 +2,8 @@
     "name": "multi-command",
     "displayName": "multi-command",
     "description": "Invoke multiple commands as one command.",
-    "version": "1.6.0",
-    "publisher": "ryuta46",
+    "version": "1.6.1",
+    "publisher": "avelinobego",
     "repository": {
         "type": "git",
         "url": "https://github.com/ryuta46/vscode-multi-command.git"
@@ -76,13 +76,13 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^3.9.7",
-        "vscode": "^1.0.0",
-        "mocha": "^2.3.3",
+        "@types/mocha": "^2.2.32",
         "@types/node": "^7.0.7",
-        "@types/mocha": "^2.2.32"
+        "mocha": "^11.7.1",
+        "typescript": "^3.9.7",
+        "vscode": "^1.0.0"
     },
     "dependencies": {
-        "vscode-variables": "^0.1.3"
+        "vscode-variables": "^1.0.1"
     }
 }
